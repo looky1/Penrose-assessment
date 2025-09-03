@@ -19,7 +19,7 @@ Unit Testing: Built-in assertion for highlight function validation
 # 🚀 Demo & Setup
 # Live Demo
 https://looky1.github.io/Penrose-assessment/
-click above link to go to the hosted project.
+click link to go to the hosted project.
 
 # Local Development
 1. Open project in VS Code
