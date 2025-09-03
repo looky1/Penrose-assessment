@@ -70,8 +70,7 @@ Interactive Feedback: Button states, hover effects, focus indicators
 
  # image below is what the webpage looks like:
  <img width="1762" height="940" alt="pr" src="https://github.com/user-attachments/assets/c5809beb-ef2d-4b70-9b97-719d4ec51efa" />
- # how the webpage looks on mobile:
-![prp](https://github.com/user-attachments/assets/0d91a71c-1114-49d9-9aa7-54dc051242e8)
+
 
 
  
