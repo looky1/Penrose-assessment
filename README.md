@@ -1,9 +1,71 @@
-# Penrose-assessment
+# Penrose Assessment - Junior Developer
 # Mini Library Finder
+A polished web application that implements all assessment requirements plus every optional "nice-to-have" feature. Built with clean, accessible code and a focus on user experience.
 
-Developed a comprehensive mini library finder application that fully implements all core requirements while incorporating every optional 'nice-to-have' feature. Designed with an intuitive, user-friendly interface for optimal user experience. I made sure to make use of the starter code given as it helped alot for all requirements. 
+# 🎯 Assessment Completion
+# ✅ All Core Requirements Implemented
+Search: Debounced input (300ms) with title/author filtering and result highlighting
+Filter & Sort: Genre dropdown and sort options working seamlessly together
+Results: Live count, full keyboard navigation (↑/↓ + Enter), empty state handling
+Reading List: Persistent add/remove with localStorage, displayed in side panel
+Accessibility: Proper labels, ARIA attributes, visible focus indicators
+Responsiveness: Optimized for 360x640 mobile and desktop layouts
 
-# TO RUN THE PROJECT
-when you have the project opened in vs-code, install live server from extensions and then right-click while in the index.html file, there you will find "open with live server" click it and the project will run.
+# 🌟 All Nice-to-Have Features Added
+URL State Management: Search/filter/sort preserved in query parameters
+Keyboard Shortcuts: Press "/" to focus search field instantly
+Unit Testing: Built-in assertion for highlight function validation
 
+# 🚀 Demo & Setup
+# Live Demo
+https://looky1.github.io/Penrose-assessment/
+click above link to go to the hosted project.
 
+# Local Development
+1. Open project in VS Code
+2. Install "Live Server" extension
+3. Right-click index.html → "Open with Live Server"
+
+# 📁 Project Structure (As Specified)
+/mini-library/          # Assessment submission folder
+├── index.html         # Semantic HTML structure
+├── styles.css         # Responsive CSS with dark theme
+├── app.js            # JavaScript implementation
+├── books.json        # book data (10 books, 5 genres)
+└── README.md         # This documentation
+
+# Root files for GitHub Pages functionality
+├── index.html        # (Duplicate for hosting)
+├── styles.css        # (Duplicate for hosting)  
+├── app.js           # (Duplicate for hosting)
+└── books.json       # (Duplicate for hosting)
+
+# 🔧 Technical Implementation
+# Architecture
+State Management: Centralized state object with reactive updates
+Event Handling: Debounced search, efficient DOM event delegation
+Performance: Minimal DOM updates, efficient filtering/sorting
+
+# Enhanced Features Beyond Requirements
+Visual Feedback: Hover effects and smooth CSS transitions
+Search Highlighting: Robust text matching with proper HTML escaping
+Error Handling: Graceful localStorage fallbacks, input validation
+Code Quality: Clean separation of concerns, reusable functions
+
+# 🎨 Design Decisions
+# User Experience
+Dark Theme: Professional appearance with background imagery
+Responsive Grid: Flexible layout adapting from mobile to desktop
+Visual Hierarchy: Clear typography and spacing for readability
+Interactive Feedback: Button states, hover effects, focus indicators
+
+# 📋 Assessment Compliance
+# Acceptance Checklist ✅
+ Page loads books.json without console errors
+ Typing updates results with debounce and highlighting
+ Genre filter and sort work together; count updates correctly
+ Add/remove items; reading list persists after refresh
+ Keyboard support (Up/Down focus, Enter toggles)
+ Accessible labels, ARIA, visible focus; responsive layout
+
+ 
