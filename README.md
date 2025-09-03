@@ -68,6 +68,7 @@ Interactive Feedback: Button states, hover effects, focus indicators
  Keyboard support (Up/Down focus, Enter toggles)
  Accessible labels, ARIA, visible focus; responsive layout
 
+ #image below is what the webpage looks like:
  <img width="1762" height="940" alt="pr" src="https://github.com/user-attachments/assets/c5809beb-ef2d-4b70-9b97-719d4ec51efa" />
 
  
