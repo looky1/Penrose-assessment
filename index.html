@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini Library Finder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <!-- Header and controls section -->
+    <div class="header-section">
+      <h1>Mini Library Finder</h1>
+      <form id="controls" role="search">
+        <label for="q">Search</label>
+        <input id="q" name="q" placeholder="Title or author" autocomplete="off" />
+
+        <label for="genre">Genre</label>
+        <select id="genre">
+          <option>All</option>
+          <option>Software</option>
+          <option>UX</option>
+          <option>Product</option>
+          <option>Productivity</option>
+          <option>Self-Help</option>
+        </select>
+
+        <label for="sort">Sort</label>
+        <select id="sort">
+          <option value="title">Title A-Z</option>
+          <option value="year">Year new-old</option>
+        </select>
+      </form>
+
+      <p id="count" aria-live="polite"></p>
+    </div>
+
+    <!-- Grid layout: book results and reading list -->
+    <div class="grid">
+      <div class="book-results">
+        <ul id="results" tabindex="0" aria-label="Search results"></ul>
+      </div>
+
+      <div class="reading-list">
+        <h2>Reading List</h2>
+        <ul id="list"></ul>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
