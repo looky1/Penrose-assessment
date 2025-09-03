@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "genre": "Software"
+  },
+  {
+    "id": 2,
+    "title": "Don't Make Me Think",
+    "author": "Steve Krug",
+    "year": 2000,
+    "genre": "UX"
+  },
+  {
+    "id": 3,
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "year": 2011,
+    "genre": "Product"
+  },
+  {
+    "id": 4,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "year": 2018,
+    "genre": "Self-Help"
+  },
+  {
+    "id": 5,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "year": 2016,
+    "genre": "Productivity"
+  },
+  {
+    "id": 6,
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "year": 1999,
+    "genre": "Software"
+  },
+  {
+    "id": 7,
+    "title": "Hooked",
+    "author": "Nir Eyal",
+    "year": 2014,
+    "genre": "Product"
+  },
+  {
+    "id": 8,
+    "title": "The Design of Everyday Things",
+    "author": "Don Norman",
+    "year": 1988,
+    "genre": "UX"
+  },
+  {
+    "id": 9,
+    "title": "The 7 Habits of Highly Effective People",
+    "author": "Stephen R. Covey",
+    "year": 1989,
+    "genre": "Self-Help"
+  },
+  {
+    "id": 10,
+    "title": "Getting Things Done",
+    "author": "David Allen",
+    "year": 2001,
+    "genre": "Productivity"
+  }
+]
